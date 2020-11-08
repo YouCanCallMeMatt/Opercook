@@ -1,4 +1,4 @@
 # Opercook
 Kelompok Amicia Michella
 
-ASG 1
+ASG 1 Kelompok 1
