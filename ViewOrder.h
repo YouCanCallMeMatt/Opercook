@@ -14,7 +14,7 @@ struct Food {
 	char Topping[100];
 	char Calories[100];
 	char Flavour[100];
-	char Size;
+	char Size[100];
 	char Time[100];	
 };
 
@@ -42,10 +42,10 @@ void ViewOrder(){
 		printf ("+==============================================================================================+\n");
 		for (int i=0; i<idx; i++){
 			if (fud[i].Type == 1){
-				printf ("| %-4d | %-20s | %-5d | %-8s | %-8s | %-12s | %c    | %-10s |\n", i+1, fud[i].Name, fud[i].Price, fud[i].Topping, fud[i].Calories, "-", '-', fud[i].Time);
+				printf ("| %-4d | %-20s | %-5d | %-8s | %-8s | %-12s | %s    | %-10s |\n", i+1, fud[i].Name, fud[i].Price, fud[i].Topping, fud[i].Calories, "-", "-", fud[i].Time);
 			}
 			else {
-				printf ("| %-4d | %-20s | %-5d | %-8s | %-8s | %-12s | %c    | %-10s |\n", i+1, fud[i].Name, fud[i].Price, "-", "-", fud[i].Flavour, fud[i].Size, fud[i].Time);
+				printf ("| %-4d | %-20s | %-5d | %-8s | %-8s | %-12s | %s    | %-10s |\n", i+1, fud[i].Name, fud[i].Price, "-", "-", fud[i].Flavour, fud[i].Size, fud[i].Time);
 			}
 		}
 		printf ("+==============================================================================================+\n");
