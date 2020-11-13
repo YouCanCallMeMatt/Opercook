@@ -1,13 +1,15 @@
 #include <stdio.h>
-#include "../Extra/EXTRA.h"
+#include "../EXTRA/EXTRA.h"
 
 void inputName()
 {
-    char name[5005]; int ctrName;
+    char name[5005];
+    int ctrName;
     do
     {
         printf("Input the name [at least 5 characters]: ");
-        scanf("%[^\n]", name); getchar();
+        scanf("%[^\n]", name);
+        getchar();
         ctrName = strctr(name);
     } while (ctrName < 5 || ctrName > 5000);
 }
