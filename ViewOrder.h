@@ -27,7 +27,7 @@ void ViewOrder(){
 	int idx = 0;
 	
 	while (!feof(food)){
-		fscanf (food, "%d#%[^#]#%d#%[^#]#%[^#]#%[^#]#%[^#]#%[^\n]\n", &fud[idx].Type, fud[idx].Name, &fud[idx].Price, fud[idx].Topping, fud[idx].Calories, fud[idx].Flavour, &fud[idx].Size, fud[idx].Time);
+		fscanf (food, "%d#%[^#]#%d#%[^#]#%[^#]#%[^#]#%[^#]#%[^\n]\n", &fud[idx].Type, fud[idx].Name, &fud[idx].Price, fud[idx].Topping, fud[idx].Calories, fud[idx].Flavour, fud[idx].Size, fud[idx].Time);
 		idx++;
 	}
 	
