@@ -5,6 +5,7 @@
 
 int strctr(char str[]);
 
+void clearScreen();
 
 
 

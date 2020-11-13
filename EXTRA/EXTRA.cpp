@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 int strctr(char str[])
 {
     int ctr = 0;
@@ -8,4 +9,11 @@ int strctr(char str[])
         ctr++;
     }
     return ctr;
+}
+
+void clearScreen(){
+	for(int i = 0; i < 50; i++)
+	{
+		puts(" ");	
+	}
 }
