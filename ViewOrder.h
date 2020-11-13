@@ -3,7 +3,6 @@
 #define ll long long int
 #define ull unsigned long long int
 #define pi 3.14159
-#include <bits/stdc++.h>
 
 //Dimohon nama file food history nya FoodData (  awas gaada capitalization >:(  )
 
