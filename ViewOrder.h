@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #define ll long long int
 #define ull unsigned long long int
 #define pi 3.14159
