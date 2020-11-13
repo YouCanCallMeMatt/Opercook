@@ -7,8 +7,6 @@
 void addDessert()
 {
 
-
-
   inputName();
   inputPrice();
 
@@ -63,7 +61,8 @@ void addDessert()
   getchar();
 }
 
-void addDrink(){
+void addDrink()
+{
 
   inputName();
   inputPrice();
@@ -74,42 +73,45 @@ void addDrink(){
   // Input Topping
   char topping[20];
   int validated = 0;
-  do{
+  do
+  {
     printf("Input the topping [\'Mint\' | \'Mix Berry\' | \'Cheese\'](Case Sensitive): ");
     scanf("%[^\n]", &topping);
     getchar();
-    if(strcmp(topping,"Mint")==0){
+    if (strcmp(topping, "Mint") == 0)
+    {
       validated = 1;
       extratime = 10;
     }
-    else if(strcmp(topping,"Mix Berry")==0){
+    else if (strcmp(topping, "Mix Berry") == 0)
+    {
       validated = 1;
       extratime = 20;
     }
-    else if(strcmp(topping,"Cheese")==0){
+    else if (strcmp(topping, "Cheese") == 0)
+    {
       validated = 1;
       extratime = 30;
     }
-  }while(validated==0);
-
+  } while (validated == 0);
 
   // Input Size
   char size;
   validated = 0;
-  do{
+  do
+  {
     printf("Input the size [S | M | L](Case Sensitive): ");
     scanf("%c", &size);
     getchar();
-    if(size=='S'||size=='M'||size=='L'){
+    if (size == 'S' || size == 'M' || size == 'L')
+    {
       validated = 1;
     }
-  }while(validated==0);
-
+  } while (validated == 0);
 
   // Time
   srand(time(0));
   totaltime = ((rand() % (50 - 10 + 1)) + 10) + extratime;
-
 
   printf("\nSuccessfully added a new menu!\n");
   getchar();
