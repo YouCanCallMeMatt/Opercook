@@ -101,6 +101,9 @@ void CookingProcess() {
     else if (Index == 0){
         printf("There is no Dessert or Drink on the list!\n\n");
     }
+    fptr2 = fopen("TEMP.txt", "w");
+    fprintf(fptr2,"");
+    fclose(fptr2);
     printf("Press Enter to continue ");
     getchar();
     //system cls
