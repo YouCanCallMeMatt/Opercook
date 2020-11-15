@@ -1,5 +1,0 @@
-2#Mojito#15#-#-#Mint#M#DDMMYYYY#10
-2#Coca Cola#5#-#-#Mix Berry#S#DDMMYYYY#30
-1#Lime Ball#20#Honey#15.50#-#-#DDMMYYYY#60
-1#Chocolava#20#Caramel#2.50#-#-#DDMMYYYY#100
-1#Lime Ball#20#Honey#15.50#-#-#DDMMYYYY#200
