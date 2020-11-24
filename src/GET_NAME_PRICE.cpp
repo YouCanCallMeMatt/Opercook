@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../EXTRA/EXTRA.h"
+#include "EXTRA/EXTRA.h"
 
 void inputName()
 {
